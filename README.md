@@ -18,7 +18,7 @@ Python 3.8 or above.
 
 ## Setup and Execution
 #### Clone the Repository:
-```git clone https://your-repository-url```
+```git clone git@github.com:achanapa/pacman-ai-gameplay.git```
 #### Run the Game:
 ```python main.py```
 
