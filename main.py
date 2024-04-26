@@ -93,10 +93,10 @@ def state_update(state, player_index, action):
         player.move(dx, dy)
         px, py = player.position
         if new_state.coins[py][px] == 1:
-            player.add_score(1)  # Score is calculated in add_score method
+            player.add_score(1)
             new_state.coins[py][px] = 0
         else:
-            player.reset_consecutive_coins()  # Reset if no coin is collected
+            player.reset_consecutive_coins()
 
     return new_state
 
