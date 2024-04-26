@@ -240,7 +240,7 @@ def game_loop():
     depth = 7  # Set the depth for minimax
 
     while not state.is_terminal():
-        if move_count > 100:  # Condition to start using GA
+        if move_count > 70:  # Condition to start using GA
             ga = GeneticAlgorithm(state, player_turn)
             action_sequence = ga.run()
             for action in action_sequence:
