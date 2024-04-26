@@ -67,7 +67,6 @@ def is_valid_move(px, py, action, board_size, other_player_position):
 
 
 def get_valid_moves(px, py, board_size):
-    # Return a list of valid moves
     return [action for action in ACTIONS if is_valid_move(px, py, action, board_size)]
 
 def utility(state, player_index):
